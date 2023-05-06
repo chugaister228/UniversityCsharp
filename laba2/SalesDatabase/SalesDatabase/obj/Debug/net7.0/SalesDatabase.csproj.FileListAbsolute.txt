@@ -1,0 +1,14 @@
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\bin\Debug\net7.0\SalesDatabase.deps.json
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\bin\Debug\net7.0\SalesDatabase.runtimeconfig.json
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\bin\Debug\net7.0\SalesDatabase.dll
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\bin\Debug\net7.0\SalesDatabase.pdb
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\obj\Debug\net7.0\SalesDatabase.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\obj\Debug\net7.0\SalesDatabase.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\obj\Debug\net7.0\SalesDatabase.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\obj\Debug\net7.0\SalesDatabase.AssemblyInfo.cs
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\obj\Debug\net7.0\SalesDatabase.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\obj\Debug\net7.0\SalesDatabase.dll
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\obj\Debug\net7.0\refint\SalesDatabase.dll
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\obj\Debug\net7.0\SalesDatabase.pdb
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\obj\Debug\net7.0\SalesDatabase.genruntimeconfig.cache
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase\obj\Debug\net7.0\ref\SalesDatabase.dll
