@@ -1,0 +1,14 @@
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\bin\Debug\net7.0\StudentDatabase.deps.json
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\bin\Debug\net7.0\StudentDatabase.runtimeconfig.json
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\bin\Debug\net7.0\StudentDatabase.dll
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\bin\Debug\net7.0\StudentDatabase.pdb
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\obj\Debug\net7.0\StudentDatabase.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\obj\Debug\net7.0\StudentDatabase.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\obj\Debug\net7.0\StudentDatabase.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\obj\Debug\net7.0\StudentDatabase.AssemblyInfo.cs
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\obj\Debug\net7.0\StudentDatabase.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\obj\Debug\net7.0\StudentDatabase.dll
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\obj\Debug\net7.0\refint\StudentDatabase.dll
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\obj\Debug\net7.0\StudentDatabase.pdb
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\obj\Debug\net7.0\StudentDatabase.genruntimeconfig.cache
+D:\Table\bursa\oop\laba3\StudentSystem\StudentDatabase\obj\Debug\net7.0\ref\StudentDatabase.dll

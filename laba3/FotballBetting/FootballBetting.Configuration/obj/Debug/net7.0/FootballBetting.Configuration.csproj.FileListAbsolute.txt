@@ -1,0 +1,17 @@
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\bin\Debug\net7.0\FootballBetting.Configuration.deps.json
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\bin\Debug\net7.0\FootballBetting.Configuration.runtimeconfig.json
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\bin\Debug\net7.0\FootballBetting.Configuration.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\bin\Debug\net7.0\FootballBetting.Configuration.pdb
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\bin\Debug\net7.0\FotballBetting.Data.Models.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\bin\Debug\net7.0\FotballBetting.Data.Models.pdb
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\FootballBetting.Configuration.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\FootballBetting.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\FootballBetting.Configuration.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\FootballBetting.Configuration.AssemblyInfo.cs
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\FootballBetting.Configuration.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\FootballBetting.Configuration.csproj.CopyComplete
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\FootballBetting.Configuration.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\refint\FootballBetting.Configuration.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\FootballBetting.Configuration.pdb
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\FootballBetting.Configuration.genruntimeconfig.cache
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Configuration\obj\Debug\net7.0\ref\FootballBetting.Configuration.dll
