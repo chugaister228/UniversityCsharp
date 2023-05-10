@@ -1,0 +1,17 @@
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\bin\Debug\net7.0\BillsPaymentSystem.Data.deps.json
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\bin\Debug\net7.0\BillsPaymentSystem.Data.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\bin\Debug\net7.0\BillsPaymentSystem.Data.pdb
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\bin\Debug\net7.0\BillsPaymentSysytem.Data.Models.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\bin\Debug\net7.0\BillsPaymentSysytem.Data.Models.pdb
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\BillsPaymentSystem.Data.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\BillsPaymentSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\BillsPaymentSystem.Data.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\BillsPaymentSystem.Data.AssemblyInfo.cs
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\BillsPaymentSystem.Data.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\BillsPaymentSystem.Data.csproj.CopyComplete
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\BillsPaymentSystem.Data.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\refint\BillsPaymentSystem.Data.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\BillsPaymentSystem.Data.pdb
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\ref\BillsPaymentSystem.Data.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\bin\Debug\net7.0\BillsPaymentSystem.Data.runtimeconfig.json
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystem.Data\obj\Debug\net7.0\BillsPaymentSystem.Data.genruntimeconfig.cache

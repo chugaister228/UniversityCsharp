@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HiD/8VTCYjVjX1vgbATfAGNK1HLErWrC7DrdUE+c7RA=",
+  "Source": "BillsPaymentSystemWeb",
+  "BasePath": "_content/BillsPaymentSystemWeb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

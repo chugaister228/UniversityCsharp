@@ -1,0 +1,14 @@
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\bin\Debug\net7.0\BillsPaymentSysytem.Data.Models.deps.json
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\bin\Debug\net7.0\BillsPaymentSysytem.Data.Models.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\bin\Debug\net7.0\BillsPaymentSysytem.Data.Models.pdb
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\obj\Debug\net7.0\BillsPaymentSysytem.Data.Models.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\obj\Debug\net7.0\BillsPaymentSysytem.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\obj\Debug\net7.0\BillsPaymentSysytem.Data.Models.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\obj\Debug\net7.0\BillsPaymentSysytem.Data.Models.AssemblyInfo.cs
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\obj\Debug\net7.0\BillsPaymentSysytem.Data.Models.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\obj\Debug\net7.0\BillsPaymentSysytem.Data.Models.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\obj\Debug\net7.0\refint\BillsPaymentSysytem.Data.Models.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\obj\Debug\net7.0\BillsPaymentSysytem.Data.Models.pdb
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\obj\Debug\net7.0\ref\BillsPaymentSysytem.Data.Models.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\bin\Debug\net7.0\BillsPaymentSysytem.Data.Models.runtimeconfig.json
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSysytem.Data.Models\obj\Debug\net7.0\BillsPaymentSysytem.Data.Models.genruntimeconfig.cache
