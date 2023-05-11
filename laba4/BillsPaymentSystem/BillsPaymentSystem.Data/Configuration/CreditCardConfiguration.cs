@@ -1,5 +1,5 @@
-﻿using BillsPaymentSystem.Data.Seeding;
-using BillsPaymentSysytem.Data.Models;
+﻿using BillsPaymentSysytem.Data.Models;
+using BillsPaymentSysytem.Data.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -14,8 +14,6 @@ namespace BillsPaymentSystem.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<CreditCard> builder)
         {
-            builder.HasKey(c => c.CreditCardId);
-
             builder.Property(c => c.Limit)
                 .IsRequired();
 
@@ -24,8 +22,6 @@ namespace BillsPaymentSystem.Data.Configuration
 
             builder.Property(c => c.ExpirationDate)
                 .IsRequired();
-
-            new CreditCardSeeder().Seed(builder);
         }
     }
 }

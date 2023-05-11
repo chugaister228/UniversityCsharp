@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hDiN/Uk69Z59uRVdBa/1ea1SPBPU74+92LW8ftgXPbE+GVRuLEfJ7QLMEIJyo0VtNKAA5rYZ9Wdx6RmWf5gRVA==",
+  "dgSpecHash": "DAiQ3/TrJFMQ4WOv3M+Ew5O89p1DkqJu+6f+Czbv5+jGDy9VHcQry8hak82AWaDuHwnlhbN0Od/2NIv1hnPfXg==",
   "success": true,
-  "projectFilePath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSysytem.Data.Models.csproj",
+  "projectFilePath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSystem.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Oleh\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Oleh\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
@@ -22,6 +22,7 @@
     "C:\\Users\\Oleh\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\Oleh\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Oleh\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Oleh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Oleh\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Oleh\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Oleh\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"

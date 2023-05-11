@@ -46,6 +46,19 @@
           }
         }
       },
+      "Bogus/34.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Bogus.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -706,6 +719,19 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -1239,11 +1265,26 @@
           }
         }
       },
+      "BillsPaymentSystem.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/BillsPaymentSystem.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BillsPaymentSystem.DAL.dll": {}
+        }
+      },
       "BillsPaymentSystem.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "BillsPaymentSysytem.Data.Models": "1.0.0",
+          "BillsPaymentSystem.DAL": "1.0.0",
+          "Bogus": "34.0.2",
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
         },
@@ -1254,17 +1295,19 @@
           "bin/placeholder/BillsPaymentSystem.Data.dll": {}
         }
       },
-      "BillsPaymentSysytem.Data.Models/1.0.0": {
+      "BillsPaymentSystem.Migrations/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "7.0.5"
+          "BillsPaymentSystem.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
         },
         "compile": {
-          "bin/placeholder/BillsPaymentSysytem.Data.Models.dll": {}
+          "bin/placeholder/BillsPaymentSystem.Migrations.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BillsPaymentSysytem.Data.Models.dll": {}
+          "bin/placeholder/BillsPaymentSystem.Migrations.dll": {}
         }
       }
     }
@@ -1306,6 +1349,25 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Bogus/34.0.2": {
+      "sha512": "2KQAuMn3fLAQ2r6jeiffZnpv0bi3GCW3iRB2v1KeHIEBu8MNTh9dBlLTZwGvM0pr+9doKkU8L5JgCURmTmT88A==",
+      "type": "package",
+      "path": "bogus/34.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.34.0.2.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/net6.0/Bogus.dll",
+        "lib/net6.0/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -2498,6 +2560,36 @@
         "lib/netstandard2.0/Mono.TextTemplating.dll",
         "mono.texttemplating.2.2.1.nupkg.sha512",
         "mono.texttemplating.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "Swashbuckle.AspNetCore/6.4.0": {
@@ -3928,20 +4020,26 @@
         "version.txt"
       ]
     },
+    "BillsPaymentSystem.DAL/1.0.0": {
+      "type": "project",
+      "path": "../BillsPaymentSysytem.Data.Models/BillsPaymentSystem.DAL.csproj",
+      "msbuildProject": "../BillsPaymentSysytem.Data.Models/BillsPaymentSystem.DAL.csproj"
+    },
     "BillsPaymentSystem.Data/1.0.0": {
       "type": "project",
       "path": "../BillsPaymentSystem.Data/BillsPaymentSystem.Data.csproj",
       "msbuildProject": "../BillsPaymentSystem.Data/BillsPaymentSystem.Data.csproj"
     },
-    "BillsPaymentSysytem.Data.Models/1.0.0": {
+    "BillsPaymentSystem.Migrations/1.0.0": {
       "type": "project",
-      "path": "../BillsPaymentSysytem.Data.Models/BillsPaymentSysytem.Data.Models.csproj",
-      "msbuildProject": "../BillsPaymentSysytem.Data.Models/BillsPaymentSysytem.Data.Models.csproj"
+      "path": "../BillsPaymentSystem.Migrations/BillsPaymentSystem.Migrations.csproj",
+      "msbuildProject": "../BillsPaymentSystem.Migrations/BillsPaymentSystem.Migrations.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "BillsPaymentSystem.Data >= 1.0.0",
+      "BillsPaymentSystem.Migrations >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.4",
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
@@ -3955,9 +4053,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSystemWeb\\BillsPaymentSystemWeb.csproj",
-      "projectName": "BillsPaymentSystemWeb",
-      "projectPath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSystemWeb\\BillsPaymentSystemWeb.csproj",
+      "projectUniqueName": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSystemWeb\\BillsPaymentSystem.API.csproj",
+      "projectName": "BillsPaymentSystem.API",
+      "projectPath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSystemWeb\\BillsPaymentSystem.API.csproj",
       "packagesPath": "C:\\Users\\Oleh\\.nuget\\packages\\",
       "outputPath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSystemWeb\\obj\\",
       "projectStyle": "PackageReference",
@@ -3978,6 +4076,9 @@
           "projectReferences": {
             "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSystem.Data\\BillsPaymentSystem.Data.csproj": {
               "projectPath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSystem.Data\\BillsPaymentSystem.Data.csproj"
+            },
+            "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSystem.Migrations\\BillsPaymentSystem.Migrations.csproj": {
+              "projectPath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSystem.Migrations\\BillsPaymentSystem.Migrations.csproj"
             }
           }
         }

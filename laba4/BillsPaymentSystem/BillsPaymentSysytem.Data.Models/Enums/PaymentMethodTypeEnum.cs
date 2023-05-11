@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace BillsPaymentSysytem.Data.Models.Enums
 {
-    public class PaymentMethodTypeEnum
+    [JsonConverter(typeof(JsonStringEnumConverter))]
+    public enum PaymentMethodType
     {
-        public enum PaymentMethodType
-        {
-            BankAccount,
-            CreditCard
-        }
+        BankAccount = 0,
+
+        CreditCard = 1,
     }
 }

@@ -78,3 +78,7 @@ D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystemWeb\obj\Debug\net7
 D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystemWeb\obj\Debug\net7.0\BillsPaymentSystemWeb.pdb
 D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystemWeb\obj\Debug\net7.0\BillsPaymentSystemWeb.genruntimeconfig.cache
 D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystemWeb\obj\Debug\net7.0\ref\BillsPaymentSystemWeb.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystemWeb\bin\Debug\net7.0\Bogus.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystemWeb\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystemWeb\bin\Debug\net7.0\BillsPaymentSystem.Migrations.dll
+D:\Table\bursa\oop\laba4\BillsPaymentSystem\BillsPaymentSystemWeb\bin\Debug\net7.0\BillsPaymentSystem.Migrations.pdb

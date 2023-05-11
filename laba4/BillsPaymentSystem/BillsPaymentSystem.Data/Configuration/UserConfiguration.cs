@@ -1,5 +1,4 @@
-﻿using BillsPaymentSystem.Data.Seeding;
-using BillsPaymentSysytem.Data.Models;
+﻿using BillsPaymentSysytem.Data.Models.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -14,14 +13,14 @@ namespace BillsPaymentSystem.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.HasKey(u => u.UserId);
-
-            builder.Property(u => u.FirstName)
+            builder
+                .Property(u => u.FirstName)
                 .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(true);
 
-            builder.Property(u => u.LastName)
+            builder
+                .Property(u => u.LastName)
                 .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(true);
@@ -35,8 +34,6 @@ namespace BillsPaymentSystem.Data.Configuration
                 .IsRequired()
                 .HasMaxLength(25)
                 .IsUnicode(false);
-
-            new UserSeeder().Seed(builder);
         }
     }
 }

@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSysytem.Data.Models.csproj": {
-                "projectPath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSysytem.Data.Models.csproj"
+              "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSystem.DAL.csproj": {
+                "projectPath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSystem.DAL.csproj"
               }
             }
           }
@@ -44,6 +44,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -85,12 +89,12 @@
         }
       }
     },
-    "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSysytem.Data.Models.csproj": {
+    "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSystem.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSysytem.Data.Models.csproj",
-        "projectName": "BillsPaymentSysytem.Data.Models",
-        "projectPath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSysytem.Data.Models.csproj",
+        "projectUniqueName": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSystem.DAL.csproj",
+        "projectName": "BillsPaymentSystem.DAL",
+        "projectPath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\BillsPaymentSystem.DAL.csproj",
         "packagesPath": "C:\\Users\\Oleh\\.nuget\\packages\\",
         "outputPath": "D:\\Table\\bursa\\oop\\laba4\\BillsPaymentSystem\\BillsPaymentSysytem.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
@@ -136,6 +140,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

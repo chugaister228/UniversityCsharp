@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Bogus" Version="34.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.5">
       <PrivateAssets>all</PrivateAssets>
@@ -20,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BillsPaymentSysytem.Data.Models\BillsPaymentSysytem.Data.Models.csproj" />
+    <ProjectReference Include="..\BillsPaymentSysytem.Data.Models\BillsPaymentSystem.DAL.csproj" />
   </ItemGroup>
 
 </Project>
