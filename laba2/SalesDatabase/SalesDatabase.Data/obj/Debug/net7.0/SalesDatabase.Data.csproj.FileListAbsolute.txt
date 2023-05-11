@@ -1,0 +1,15 @@
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\obj\Debug\net7.0\SalesDatabase.Data.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\obj\Debug\net7.0\SalesDatabase.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\obj\Debug\net7.0\SalesDatabase.Data.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\obj\Debug\net7.0\SalesDatabase.Data.AssemblyInfo.cs
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\obj\Debug\net7.0\SalesDatabase.Data.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\bin\Debug\net7.0\SalesDatabase.Data.deps.json
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\bin\Debug\net7.0\SalesDatabase.Data.dll
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\bin\Debug\net7.0\SalesDatabase.Data.pdb
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\bin\Debug\net7.0\SalesDatabase.DAL.dll
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\bin\Debug\net7.0\SalesDatabase.DAL.pdb
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\obj\Debug\net7.0\SalesDatabase.Data.csproj.CopyComplete
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\obj\Debug\net7.0\SalesDatabase.Data.dll
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\obj\Debug\net7.0\refint\SalesDatabase.Data.dll
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\obj\Debug\net7.0\SalesDatabase.Data.pdb
+D:\Table\bursa\oop\laba2\SalesDatabase\SalesDatabase.Data\obj\Debug\net7.0\ref\SalesDatabase.Data.dll

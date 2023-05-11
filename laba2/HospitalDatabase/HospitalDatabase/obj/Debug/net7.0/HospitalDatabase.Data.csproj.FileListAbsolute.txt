@@ -1,0 +1,17 @@
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\HospitalDatabase.Data.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\HospitalDatabase.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\HospitalDatabase.Data.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\HospitalDatabase.Data.AssemblyInfo.cs
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\HospitalDatabase.Data.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\bin\Debug\net7.0\HospitalDatabase.Data.deps.json
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\bin\Debug\net7.0\HospitalDatabase.Data.runtimeconfig.json
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\bin\Debug\net7.0\HospitalDatabase.Data.dll
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\bin\Debug\net7.0\HospitalDatabase.Data.pdb
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\bin\Debug\net7.0\HospitalDatabase.DAL.dll
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\bin\Debug\net7.0\HospitalDatabase.DAL.pdb
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\HospitalDatabase.Data.csproj.CopyComplete
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\HospitalDatabase.Data.dll
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\refint\HospitalDatabase.Data.dll
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\HospitalDatabase.Data.pdb
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\HospitalDatabase.Data.genruntimeconfig.cache
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase\obj\Debug\net7.0\ref\HospitalDatabase.Data.dll

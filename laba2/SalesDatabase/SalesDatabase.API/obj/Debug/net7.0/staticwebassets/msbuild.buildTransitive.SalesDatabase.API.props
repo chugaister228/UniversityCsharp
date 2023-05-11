@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\SalesDatabase.API.props" />
+</Project>

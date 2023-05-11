@@ -1,0 +1,17 @@
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\bin\Debug\net7.0\HospitalDatabase.Migrations.deps.json
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\bin\Debug\net7.0\HospitalDatabase.Migrations.dll
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\bin\Debug\net7.0\HospitalDatabase.Migrations.pdb
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\obj\Debug\net7.0\HospitalDatabase.Migrations.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\obj\Debug\net7.0\HospitalDatabase.Migrations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\obj\Debug\net7.0\HospitalDatabase.Migrations.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\obj\Debug\net7.0\HospitalDatabase.Migrations.AssemblyInfo.cs
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\obj\Debug\net7.0\HospitalDatabase.Migrations.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\obj\Debug\net7.0\HospitalDatabase.Migrations.dll
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\obj\Debug\net7.0\refint\HospitalDatabase.Migrations.dll
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\obj\Debug\net7.0\HospitalDatabase.Migrations.pdb
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\obj\Debug\net7.0\ref\HospitalDatabase.Migrations.dll
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\bin\Debug\net7.0\HospitalDatabase.DAL.dll
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\bin\Debug\net7.0\HospitalDatabase.Data.dll
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\bin\Debug\net7.0\HospitalDatabase.Data.pdb
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\bin\Debug\net7.0\HospitalDatabase.DAL.pdb
+D:\Table\bursa\oop\laba2\HospitalDatabase\HospitalDatabase.Migrations\obj\Debug\net7.0\HospitalDatabase.Migrations.csproj.CopyComplete
