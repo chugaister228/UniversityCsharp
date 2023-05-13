@@ -2,10 +2,6 @@ D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\bin\Debug\net7.0\Fo
 D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\bin\Debug\net7.0\FootballBetting.Data.runtimeconfig.json
 D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\bin\Debug\net7.0\FootballBetting.Data.dll
 D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\bin\Debug\net7.0\FootballBetting.Data.pdb
-D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\bin\Debug\net7.0\FootballBetting.Configuration.dll
-D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\bin\Debug\net7.0\FotballBetting.Data.Models.dll
-D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\bin\Debug\net7.0\FootballBetting.Configuration.pdb
-D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\bin\Debug\net7.0\FotballBetting.Data.Models.pdb
 D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\obj\Debug\net7.0\FootballBetting.Data.csproj.AssemblyReference.cache
 D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\obj\Debug\net7.0\FootballBetting.Data.GeneratedMSBuildEditorConfig.editorconfig
 D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\obj\Debug\net7.0\FootballBetting.Data.AssemblyInfoInputs.cache
@@ -17,3 +13,5 @@ D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\obj\Debug\net7.0\re
 D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\obj\Debug\net7.0\FootballBetting.Data.pdb
 D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\obj\Debug\net7.0\FootballBetting.Data.genruntimeconfig.cache
 D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\obj\Debug\net7.0\ref\FootballBetting.Data.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\bin\Debug\net7.0\FootballBetting.DAL.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Data\bin\Debug\net7.0\FootballBetting.DAL.pdb

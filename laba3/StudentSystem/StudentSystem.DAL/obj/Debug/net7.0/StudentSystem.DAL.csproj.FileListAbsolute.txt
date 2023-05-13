@@ -1,0 +1,14 @@
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\bin\Debug\net7.0\StudentSystem.DAL.deps.json
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\bin\Debug\net7.0\StudentSystem.DAL.dll
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\bin\Debug\net7.0\StudentSystem.DAL.pdb
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\obj\Debug\net7.0\StudentSystem.DAL.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\obj\Debug\net7.0\StudentSystem.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\obj\Debug\net7.0\StudentSystem.DAL.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\obj\Debug\net7.0\StudentSystem.DAL.AssemblyInfo.cs
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\obj\Debug\net7.0\StudentSystem.DAL.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\obj\Debug\net7.0\StudentSystem.DAL.dll
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\obj\Debug\net7.0\refint\StudentSystem.DAL.dll
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\obj\Debug\net7.0\StudentSystem.DAL.pdb
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\obj\Debug\net7.0\ref\StudentSystem.DAL.dll
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\bin\Debug\net7.0\StudentSystem.DAL.runtimeconfig.json
+D:\Table\bursa\oop\laba3\StudentSystem\StudentSystem.DAL\obj\Debug\net7.0\StudentSystem.DAL.genruntimeconfig.cache

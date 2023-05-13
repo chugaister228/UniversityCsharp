@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FotballBetting.Data.Models", "FotballBetting.Data.Models\FotballBetting.Data.Models.csproj", "{30B8EC52-F9CA-48D6-B762-7DB0E5755DDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballBetting.Data", "FootballBetting.Data\FootballBetting.Data.csproj", "{E4E4EB48-C267-4080-B833-CAB14762BC72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBetting.Data", "FootballBetting.Data\FootballBetting.Data.csproj", "{E4E4EB48-C267-4080-B833-CAB14762BC72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBetting.DAL", "FootballBetting.DAL\FootballBetting.DAL.csproj", "{174E3359-969F-49BF-8BDC-D2F96686FE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBetting.Configuration", "FootballBetting.Configuration\FootballBetting.Configuration.csproj", "{797AAFC4-4E84-4B95-BF49-C908CFAA1EEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBetting.API", "FootballBetting.API\FootballBetting.API.csproj", "{40526468-1DC7-432F-87C6-413256510653}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBettingWeb", "FootballBettingWeb\FootballBettingWeb.csproj", "{300BA80B-3145-4829-8235-027019E11853}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballBetting.Migrations", "FootballBetting.Migrations\FootballBetting.Migrations.csproj", "{07D0FCE6-641B-49BD-B377-E04DAE38A407}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,22 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{30B8EC52-F9CA-48D6-B762-7DB0E5755DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30B8EC52-F9CA-48D6-B762-7DB0E5755DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30B8EC52-F9CA-48D6-B762-7DB0E5755DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30B8EC52-F9CA-48D6-B762-7DB0E5755DDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E4E4EB48-C267-4080-B833-CAB14762BC72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E4E4EB48-C267-4080-B833-CAB14762BC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4E4EB48-C267-4080-B833-CAB14762BC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4E4EB48-C267-4080-B833-CAB14762BC72}.Release|Any CPU.Build.0 = Release|Any CPU
-		{797AAFC4-4E84-4B95-BF49-C908CFAA1EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{797AAFC4-4E84-4B95-BF49-C908CFAA1EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{797AAFC4-4E84-4B95-BF49-C908CFAA1EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{797AAFC4-4E84-4B95-BF49-C908CFAA1EEA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{300BA80B-3145-4829-8235-027019E11853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{300BA80B-3145-4829-8235-027019E11853}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{300BA80B-3145-4829-8235-027019E11853}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{300BA80B-3145-4829-8235-027019E11853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{174E3359-969F-49BF-8BDC-D2F96686FE53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{174E3359-969F-49BF-8BDC-D2F96686FE53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{174E3359-969F-49BF-8BDC-D2F96686FE53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{174E3359-969F-49BF-8BDC-D2F96686FE53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40526468-1DC7-432F-87C6-413256510653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40526468-1DC7-432F-87C6-413256510653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40526468-1DC7-432F-87C6-413256510653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40526468-1DC7-432F-87C6-413256510653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D0FCE6-641B-49BD-B377-E04DAE38A407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D0FCE6-641B-49BD-B377-E04DAE38A407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D0FCE6-641B-49BD-B377-E04DAE38A407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D0FCE6-641B-49BD-B377-E04DAE38A407}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

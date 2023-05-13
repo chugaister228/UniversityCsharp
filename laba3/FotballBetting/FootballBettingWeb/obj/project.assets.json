@@ -1239,26 +1239,21 @@
           }
         }
       },
-      "FootballBetting.Configuration/1.0.0": {
+      "FootballBetting.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "FotballBetting.Data.Models": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "7.0.5"
-        },
         "compile": {
-          "bin/placeholder/FootballBetting.Configuration.dll": {}
+          "bin/placeholder/FootballBetting.DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FootballBetting.Configuration.dll": {}
+          "bin/placeholder/FootballBetting.DAL.dll": {}
         }
       },
       "FootballBetting.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "FootballBetting.Configuration": "1.0.0",
-          "FotballBetting.Data.Models": "1.0.0",
+          "FootballBetting.DAL": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
         },
@@ -1267,16 +1262,6 @@
         },
         "runtime": {
           "bin/placeholder/FootballBetting.Data.dll": {}
-        }
-      },
-      "FotballBetting.Data.Models/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/FotballBetting.Data.Models.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FotballBetting.Data.Models.dll": {}
         }
       }
     }
@@ -3940,20 +3925,15 @@
         "version.txt"
       ]
     },
-    "FootballBetting.Configuration/1.0.0": {
+    "FootballBetting.DAL/1.0.0": {
       "type": "project",
-      "path": "../FootballBetting.Configuration/FootballBetting.Configuration.csproj",
-      "msbuildProject": "../FootballBetting.Configuration/FootballBetting.Configuration.csproj"
+      "path": "../FootballBetting.DAL/FootballBetting.DAL.csproj",
+      "msbuildProject": "../FootballBetting.DAL/FootballBetting.DAL.csproj"
     },
     "FootballBetting.Data/1.0.0": {
       "type": "project",
       "path": "../FootballBetting.Data/FootballBetting.Data.csproj",
       "msbuildProject": "../FootballBetting.Data/FootballBetting.Data.csproj"
-    },
-    "FotballBetting.Data.Models/1.0.0": {
-      "type": "project",
-      "path": "../FotballBetting.Data.Models/FotballBetting.Data.Models.csproj",
-      "msbuildProject": "../FotballBetting.Data.Models/FotballBetting.Data.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {

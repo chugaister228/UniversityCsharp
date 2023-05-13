@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "FootballBetting.Data/1.0.0": {
         "dependencies": {
-          "FootballBetting.Configuration": "1.0.0",
-          "FotballBetting.Data.Models": "1.0.0",
+          "FootballBetting.DAL": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.Design": "7.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
@@ -673,18 +672,9 @@
           }
         }
       },
-      "FootballBetting.Configuration/1.0.0": {
-        "dependencies": {
-          "FotballBetting.Data.Models": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "7.0.5"
-        },
+      "FootballBetting.DAL/1.0.0": {
         "runtime": {
-          "FootballBetting.Configuration.dll": {}
-        }
-      },
-      "FotballBetting.Data.Models/1.0.0": {
-        "runtime": {
-          "FotballBetting.Data.Models.dll": {}
+          "FootballBetting.DAL.dll": {}
         }
       }
     }
@@ -1164,12 +1154,7 @@
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
-    "FootballBetting.Configuration/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "FotballBetting.Data.Models/1.0.0": {
+    "FootballBetting.DAL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

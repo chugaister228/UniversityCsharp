@@ -18,8 +18,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\FotballBetting.Data.Models\FotballBetting.Data.Models.csproj" />
-  </ItemGroup>
-
 </Project>

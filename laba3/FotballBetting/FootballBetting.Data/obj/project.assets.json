@@ -1133,28 +1133,14 @@
           }
         }
       },
-      "FootballBetting.Configuration/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "FotballBetting.Data.Models": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "7.0.5"
-        },
-        "compile": {
-          "bin/placeholder/FootballBetting.Configuration.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FootballBetting.Configuration.dll": {}
-        }
-      },
-      "FotballBetting.Data.Models/1.0.0": {
+      "FootballBetting.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
-          "bin/placeholder/FotballBetting.Data.Models.dll": {}
+          "bin/placeholder/FootballBetting.DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/FotballBetting.Data.Models.dll": {}
+          "bin/placeholder/FootballBetting.DAL.dll": {}
         }
       }
     }
@@ -3477,21 +3463,15 @@
         "version.txt"
       ]
     },
-    "FootballBetting.Configuration/1.0.0": {
+    "FootballBetting.DAL/1.0.0": {
       "type": "project",
-      "path": "../FootballBetting.Configuration/FootballBetting.Configuration.csproj",
-      "msbuildProject": "../FootballBetting.Configuration/FootballBetting.Configuration.csproj"
-    },
-    "FotballBetting.Data.Models/1.0.0": {
-      "type": "project",
-      "path": "../FotballBetting.Data.Models/FotballBetting.Data.Models.csproj",
-      "msbuildProject": "../FotballBetting.Data.Models/FotballBetting.Data.Models.csproj"
+      "path": "../FootballBetting.DAL/FootballBetting.DAL.csproj",
+      "msbuildProject": "../FootballBetting.DAL/FootballBetting.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "FootballBetting.Configuration >= 1.0.0",
-      "FotballBetting.Data.Models >= 1.0.0",
+      "FootballBetting.DAL >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
@@ -3525,11 +3505,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Table\\bursa\\oop\\laba3\\FotballBetting\\FootballBetting.Configuration\\FootballBetting.Configuration.csproj": {
-              "projectPath": "D:\\Table\\bursa\\oop\\laba3\\FotballBetting\\FootballBetting.Configuration\\FootballBetting.Configuration.csproj"
-            },
-            "D:\\Table\\bursa\\oop\\laba3\\FotballBetting\\FotballBetting.Data.Models\\FotballBetting.Data.Models.csproj": {
-              "projectPath": "D:\\Table\\bursa\\oop\\laba3\\FotballBetting\\FotballBetting.Data.Models\\FotballBetting.Data.Models.csproj"
+            "D:\\Table\\bursa\\oop\\laba3\\FotballBetting\\FootballBetting.DAL\\FootballBetting.DAL.csproj": {
+              "projectPath": "D:\\Table\\bursa\\oop\\laba3\\FotballBetting\\FootballBetting.DAL\\FootballBetting.DAL.csproj"
             }
           }
         }

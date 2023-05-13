@@ -1,0 +1,12 @@
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\bin\Debug\net7.0\FootballBetting.DAL.deps.json
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\bin\Debug\net7.0\FootballBetting.DAL.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\bin\Debug\net7.0\FootballBetting.DAL.pdb
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\obj\Debug\net7.0\FootballBetting.DAL.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\obj\Debug\net7.0\FootballBetting.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\obj\Debug\net7.0\FootballBetting.DAL.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\obj\Debug\net7.0\FootballBetting.DAL.AssemblyInfo.cs
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\obj\Debug\net7.0\FootballBetting.DAL.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\obj\Debug\net7.0\FootballBetting.DAL.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\obj\Debug\net7.0\refint\FootballBetting.DAL.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\obj\Debug\net7.0\FootballBetting.DAL.pdb
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.DAL\obj\Debug\net7.0\ref\FootballBetting.DAL.dll

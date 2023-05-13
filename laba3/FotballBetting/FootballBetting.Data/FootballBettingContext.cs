@@ -1,11 +1,6 @@
-﻿using FootballBetting.Configuration;
-using FotballBetting.Data.Models;
+﻿using FootballBetting.DAL.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Reflection;
 
 namespace FootballBetting.Data
 {
@@ -35,25 +30,7 @@ namespace FootballBetting.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-            modelBuilder.ApplyConfiguration(new BetConfiguration());
-            modelBuilder.ApplyConfiguration(new ColorConfiguration());
-            modelBuilder.ApplyConfiguration(new CountryConfiguration());
-            modelBuilder.ApplyConfiguration(new GameConfiguration());
-            modelBuilder.ApplyConfiguration(new PlayerConfiguration());
-            modelBuilder.ApplyConfiguration(new PlayerStatisticConfiguration());
-            modelBuilder.ApplyConfiguration(new PositionConfiguration());
-            modelBuilder.ApplyConfiguration(new TeamConfiguration());
-            modelBuilder.ApplyConfiguration(new TownConfiguration());
-            modelBuilder.ApplyConfiguration(new UserConfiguration());
-        }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=.;Initial Catalog=FootballBettingDatabase;Trusted_Connection=True;TrustServerCertificate=True;", b => b.MigrationsAssembly("FootballBettingWeb"));
-            }
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
     }
 }

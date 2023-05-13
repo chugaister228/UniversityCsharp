@@ -1,0 +1,17 @@
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\bin\Debug\net7.0\FootballBetting.Migrations.deps.json
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\bin\Debug\net7.0\FootballBetting.Migrations.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\bin\Debug\net7.0\FootballBetting.Migrations.pdb
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\obj\Debug\net7.0\FootballBetting.Migrations.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\obj\Debug\net7.0\FootballBetting.Migrations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\obj\Debug\net7.0\FootballBetting.Migrations.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\obj\Debug\net7.0\FootballBetting.Migrations.AssemblyInfo.cs
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\obj\Debug\net7.0\FootballBetting.Migrations.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\obj\Debug\net7.0\FootballBetting.Migrations.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\obj\Debug\net7.0\refint\FootballBetting.Migrations.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\obj\Debug\net7.0\FootballBetting.Migrations.pdb
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\obj\Debug\net7.0\ref\FootballBetting.Migrations.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\bin\Debug\net7.0\FootballBetting.DAL.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\bin\Debug\net7.0\FootballBetting.Data.dll
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\bin\Debug\net7.0\FootballBetting.Data.pdb
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\bin\Debug\net7.0\FootballBetting.DAL.pdb
+D:\Table\bursa\oop\laba3\FotballBetting\FootballBetting.Migrations\obj\Debug\net7.0\FootballBetting.Migrations.csproj.CopyComplete
