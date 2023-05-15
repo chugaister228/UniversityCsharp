@@ -1,0 +1,17 @@
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\bin\Debug\net7.0\BookShop.Migrations.deps.json
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\bin\Debug\net7.0\BookShop.Migrations.dll
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\bin\Debug\net7.0\BookShop.Migrations.pdb
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\obj\Debug\net7.0\BookShop.Migrations.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\obj\Debug\net7.0\BookShop.Migrations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\obj\Debug\net7.0\BookShop.Migrations.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\obj\Debug\net7.0\BookShop.Migrations.AssemblyInfo.cs
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\obj\Debug\net7.0\BookShop.Migrations.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\obj\Debug\net7.0\BookShop.Migrations.dll
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\obj\Debug\net7.0\refint\BookShop.Migrations.dll
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\obj\Debug\net7.0\BookShop.Migrations.pdb
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\obj\Debug\net7.0\ref\BookShop.Migrations.dll
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\bin\Debug\net7.0\BookShop.DAL.dll
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\bin\Debug\net7.0\BookShop.Data.dll
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\bin\Debug\net7.0\BookShop.Data.pdb
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\bin\Debug\net7.0\BookShop.DAL.pdb
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Migrations\obj\Debug\net7.0\BookShop.Migrations.csproj.CopyComplete

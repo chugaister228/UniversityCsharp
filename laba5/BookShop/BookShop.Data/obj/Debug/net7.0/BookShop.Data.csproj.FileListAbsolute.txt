@@ -1,0 +1,15 @@
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\bin\Debug\net7.0\BookShop.Data.deps.json
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\bin\Debug\net7.0\BookShop.Data.dll
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\bin\Debug\net7.0\BookShop.Data.pdb
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\bin\Debug\net7.0\BookShop.DAL.dll
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\bin\Debug\net7.0\BookShop.DAL.pdb
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\obj\Debug\net7.0\BookShop.Data.csproj.AssemblyReference.cache
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\obj\Debug\net7.0\BookShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\obj\Debug\net7.0\BookShop.Data.AssemblyInfoInputs.cache
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\obj\Debug\net7.0\BookShop.Data.AssemblyInfo.cs
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\obj\Debug\net7.0\BookShop.Data.csproj.CoreCompileInputs.cache
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\obj\Debug\net7.0\BookShop.Data.csproj.CopyComplete
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\obj\Debug\net7.0\BookShop.Data.dll
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\obj\Debug\net7.0\refint\BookShop.Data.dll
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\obj\Debug\net7.0\BookShop.Data.pdb
+D:\Table\bursa\oop\laba5\BookShop\BookShop.Data\obj\Debug\net7.0\ref\BookShop.Data.dll
