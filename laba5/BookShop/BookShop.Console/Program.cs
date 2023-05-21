@@ -260,15 +260,9 @@ while(queryNumber is not "EXIT")
         case "14":
 
             Console.WriteLine();
-            var result14 = await repo.IncreasePrices();
+            await repo.IncreasePrices();
 
-            for (int i = 0; i < result14.Count; i++)
-            {
-                Console.WriteLine();
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine($"{result14[i]}");
-                Console.ResetColor();
-            }
+            Console.WriteLine("Done!");
 
             break;
 

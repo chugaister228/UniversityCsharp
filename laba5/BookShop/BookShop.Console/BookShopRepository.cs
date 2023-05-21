@@ -347,7 +347,7 @@ namespace BookShop.Console
         }
 
         //query14
-        public async Task<List<string>> IncreasePrices()
+        public async Task IncreasePrices()
         {
             var books = await _context
                 .Books
@@ -355,35 +355,14 @@ namespace BookShop.Console
                 .Where(b => b.ReleaseDate.Year < 2010)
                 .ToListAsync();
 
-            var result = new List<string>();
-
-            if (books.Count > 0) 
+            if(books is not null)
             {
-                for (int i = 0; i < books.Count; i++)
-                {
-                    result.Add($"{books[i].Title} - old price: {books[i].Price}");
-                }
+                books.ForEach(x => {
+                    x.Price += 5;
+                });
             }
 
-            books.ForEach(b => b.Price -= 5);
             await _context.SaveChangesAsync();
-
-            var booksUpdated = await _context
-                .Books
-                .AsNoTracking()
-                .Where(b => b.ReleaseDate.Year < 2010)
-                .ToListAsync();
-
-            if (booksUpdated.Count > 0)
-            {
-                for (int i = 0; i < booksUpdated.Count; i++)
-                {
-                    result.Add($"{booksUpdated[i].Title} - new price: {booksUpdated[i].Price}");
-                }
-            }
-
-            if (result is not null) { return result; }
-            else { throw new NullReferenceException(); }
         }
 
         //query15
