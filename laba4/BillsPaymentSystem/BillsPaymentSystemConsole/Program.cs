@@ -1,5 +1,6 @@
 ﻿using BillsPaymentSystem.Data;
 using BillsPaymentSystemConsole;
+using BillsPaymentSysytem.Data.Models;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,26 +23,65 @@ Console.WriteLine();
 
 var userResult = await repo.GetUserById(ID);
 
-Console.WriteLine($"The user's ID: {userResult.ID}");
-Console.WriteLine($"The user's title: {userResult.FirstName} {userResult.LastName}");
-Console.WriteLine($"The user's email: {userResult.Email}");
-Console.WriteLine();
+if (userResult is not null)
+{
+    Console.WriteLine($"The user's ID: {userResult.ID}");
+    Console.WriteLine($"The user's title: {userResult.FirstName} {userResult.LastName}");
+    Console.WriteLine($"The user's email: {userResult.Email}");
+    Console.WriteLine();
 
-var bankAccountResult = await repo.GetBankAccountByUserId(ID);
+    var paymentMethodResult = await repo.GetPaymentMethodsByUserId(userResult.ID);
 
-Console.WriteLine($"The bank`s account ID: {bankAccountResult.ID}");
-Console.WriteLine($"The bank`s account Name: {bankAccountResult.BankName}");
-Console.WriteLine($"The bank`s account balance: {bankAccountResult.Balance}");
-Console.WriteLine($"The bank`s account SwiftCode: {bankAccountResult.SwiftCode}");
-Console.WriteLine();
+    if(paymentMethodResult is not null )
+    {
+        List<BankAccount> bankAccountsResult = new List<BankAccount>();
+        List<CreditCard> creditCardsResult = new List<CreditCard>();
 
-var creditCardResult = await repo.GetCreditCardByUserId(ID);
+        foreach(var item in paymentMethodResult)
+        {
+            var bank = await repo.GetBankAccountByPaymentMethod(item);
+            var creditCard = await repo.GetCreditCardByPaymentMethod(item);
 
-Console.WriteLine($"The credit card`s ID: {creditCardResult.ID}");
-Console.WriteLine($"The credit card`s account Limit: {creditCardResult.Limit}");
-Console.WriteLine($"The credit card`s account MoneyOwed: {creditCardResult.MoneyOwed}");
-Console.WriteLine($"The credit card`s account ExpirationDate: {creditCardResult.ExpirationDate}");
-Console.WriteLine();
+            if (bank is not null) { bankAccountsResult.Add(bank); }
+
+            if (creditCard is not null) { creditCardsResult.Add(creditCard); }
+        }
+
+        if(bankAccountsResult is not null)
+        {
+            foreach(var bankAccount in bankAccountsResult)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Bank account: ");
+                Console.WriteLine(bankAccount.ID);
+                Console.WriteLine(bankAccount.BankName);
+                Console.WriteLine(bankAccount.Balance);
+                Console.WriteLine(bankAccount.SwiftCode);
+            }
+        }
+
+        if(creditCardsResult is not null)
+        {
+            foreach(var creditCard in creditCardsResult)
+            {
+                Console.WriteLine();
+                Console.WriteLine("Credit card: ");
+                Console.WriteLine(creditCard.ID);
+                Console.WriteLine(creditCard.Limit);
+                Console.WriteLine(creditCard.MoneyOwed);
+                Console.WriteLine(creditCard.ExpirationDate);
+            }
+        }
+    }
+    else
+    {
+        Console.WriteLine("Payment method was not found!");
+    }
+}
+else
+{
+    Console.WriteLine("User was not found!");
+}
 
 Console.WriteLine("Press enter to exit");
 Console.ReadLine();

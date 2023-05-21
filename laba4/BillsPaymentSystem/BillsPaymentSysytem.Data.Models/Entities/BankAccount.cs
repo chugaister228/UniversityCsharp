@@ -12,10 +12,6 @@ namespace BillsPaymentSysytem.Data.Models
         public decimal Balance { get; set; }
         public string BankName { get; set; } = string.Empty;
         public string? SwiftCode { get; set; }
-        
-        /// <summary>
-        /// Relationships beetwen tables: One-to-One 
-        /// </summary>
         public PaymentMethod? PaymentMethod { get; set; }
     }
 }

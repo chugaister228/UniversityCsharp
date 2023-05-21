@@ -12,10 +12,6 @@ namespace BillsPaymentSysytem.Data.Models
         public decimal Limit { get; set; }
         public decimal MoneyOwed { get; set; }
         public DateTime ExpirationDate { get; set; }
-
-        /// <summary>
-        /// Relationships beetwen tables: One-to-One 
-        /// </summary>
         public PaymentMethod? PaymentMethod { get; set; }
     }
 }

@@ -28,44 +28,35 @@ namespace BillsPaymentSystemConsole
             else { throw new NullReferenceException($"The user with {userId} ID was not found!"); }
         }
 
-        public async Task<PaymentMethod> GetPaymentMethodByUserId(Guid userId)
+        public async Task<List<PaymentMethod>> GetPaymentMethodsByUserId(Guid userId)
         {
             var paymentMethodResult = await _context
                 .Set<PaymentMethod>()
                 .AsNoTracking()
-                .FirstOrDefaultAsync(x => x.UserId == userId);
+                .Where(x => x.UserId == userId)
+                .ToListAsync();
 
             if (paymentMethodResult is not null) { return paymentMethodResult; }
             else { throw new NullReferenceException($"The user payment method was not found!"); }
         }
 
-        public async Task<BankAccount> GetBankAccountByUserId(Guid userId)
+        public async Task<BankAccount> GetBankAccountByPaymentMethod(PaymentMethod paymentMethod)
         {
-            var paymentMethodResult = await GetPaymentMethodByUserId(userId);
-
-            Guid bankAccountId = Guid.Empty;
-            if (paymentMethodResult is not null) { bankAccountId = paymentMethodResult.BankAccountId; }
-
             var bankAccountResult = await _context
                 .Set<BankAccount>()
                 .AsNoTracking()
-                .FirstOrDefaultAsync(x => x.ID == bankAccountId);
+                .FirstOrDefaultAsync(x => x.ID == paymentMethod.BankAccountId);
 
             if (bankAccountResult is not null) {  return bankAccountResult; }
             else { throw new NullReferenceException($"The user bank was not found!"); }
         }
 
-        public async Task<CreditCard> GetCreditCardByUserId(Guid userId)
+        public async Task<CreditCard> GetCreditCardByPaymentMethod(PaymentMethod paymentMethod)
         {
-            var paymentMethodResult = await GetPaymentMethodByUserId(userId);
-
-            Guid creditCardId = Guid.Empty;
-            if (paymentMethodResult is not null) { creditCardId = paymentMethodResult.CreditCardId; }
-
             var creditCardtResult = await _context
                 .Set<CreditCard>()
                 .AsNoTracking()
-                .FirstOrDefaultAsync(x => x.ID == creditCardId);
+                .FirstOrDefaultAsync(x => x.ID == paymentMethod.CreditCardId);
 
             if (creditCardtResult is not null) { return creditCardtResult; }
             else { throw new NullReferenceException($"The user credit card was not found!"); }
