@@ -2,11 +2,6 @@
 using BillsPaymentSysytem.Data.Models;
 using BillsPaymentSysytem.Data.Models.Entities;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BillsPaymentSystemConsole
 {
@@ -60,6 +55,79 @@ namespace BillsPaymentSystemConsole
 
             if (creditCardtResult is not null) { return creditCardtResult; }
             else { throw new NullReferenceException($"The user credit card was not found!"); }
+        }
+
+        public async Task WithdrawCreditCardById(Guid creditCardId)
+        {
+            List<CreditCard> creditCards = await _context
+                .CreditCards
+                .Where(x => x.ID == creditCardId)
+                .ToListAsync();
+
+            if(creditCards is not null)
+            {
+                creditCards.ForEach(x => { 
+                    x.MoneyOwed = 0;
+                    x.Limit = 0;
+                });
+            }
+
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DepositBankAccountById(Guid bankAccountId, decimal amount)
+        {
+            List<BankAccount> bankAccounts = await _context
+                .BankAccounts
+                .Where(x => x.ID == bankAccountId)
+                .ToListAsync();
+
+            if(bankAccounts is not null)
+            {
+                bankAccounts.ForEach(x => { 
+                    x.Balance -= amount; 
+                });
+            }
+
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task PayBills(List<BankAccount> bankAccounts, List<CreditCard> creditCards, decimal amount)
+        {
+            bool enoughMoney = true;
+
+            if(bankAccounts is not null)
+            {
+                bankAccounts.ForEach(x => {
+                    if (x.Balance >= amount)
+                    {
+                        x.Balance -= amount;
+                    }
+                    else
+                    {
+                        enoughMoney = false;
+                    }
+                });
+            }
+
+            if(creditCards is not null)
+            {
+                creditCards.ForEach(x => {
+                    if(x.Limit >= amount)
+                    {
+                        x.Limit -= amount;
+                    }
+                    else
+                    {
+                        enoughMoney = false;
+                    }
+                });
+            }
+
+            if (enoughMoney)
+            {
+                await _context.SaveChangesAsync();
+            }
         }
     }
 }

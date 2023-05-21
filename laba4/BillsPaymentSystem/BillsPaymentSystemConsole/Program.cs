@@ -49,28 +49,77 @@ if (userResult is not null)
 
         if(bankAccountsResult is not null)
         {
-            foreach(var bankAccount in bankAccountsResult)
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine();
+            Console.WriteLine($"Bank accounts: {bankAccountsResult.Count}");
+
+            foreach (var bankAccount in bankAccountsResult)
             {
                 Console.WriteLine();
-                Console.WriteLine("Bank account: ");
+                Console.Write("Bank account: ");
                 Console.WriteLine(bankAccount.ID);
-                Console.WriteLine(bankAccount.BankName);
-                Console.WriteLine(bankAccount.Balance);
-                Console.WriteLine(bankAccount.SwiftCode);
+                Console.WriteLine($"Bank name: {bankAccount.BankName}");
+                Console.WriteLine($"Balance: {bankAccount.Balance}");
+                Console.WriteLine($"Swift: {bankAccount.SwiftCode}");
             }
         }
 
         if(creditCardsResult is not null)
         {
-            foreach(var creditCard in creditCardsResult)
+            Console.WriteLine("--------------------------------------------");
+            Console.WriteLine();
+            Console.WriteLine($"Credit cards: {creditCardsResult.Count}");
+
+            decimal limitLeft = 0;
+
+            foreach (var creditCard in creditCardsResult)
             {
+                limitLeft = creditCard.Limit - creditCard.MoneyOwed;
+
                 Console.WriteLine();
-                Console.WriteLine("Credit card: ");
+                Console.Write("Credit card: ");
                 Console.WriteLine(creditCard.ID);
-                Console.WriteLine(creditCard.Limit);
-                Console.WriteLine(creditCard.MoneyOwed);
-                Console.WriteLine(creditCard.ExpirationDate);
+                Console.WriteLine($"Limit: {creditCard.Limit}");
+                Console.WriteLine($"Money owed: {creditCard.MoneyOwed}");
+                Console.WriteLine($"Expiration date: {creditCard.ExpirationDate}");
+                Console.WriteLine($"Limit left: {limitLeft}");
             }
+        }
+
+        Console.WriteLine();
+        Console.WriteLine("Do you want to make withdraw for credit card? (1)");
+        Console.WriteLine("Do you want to make deposit for bank account? (2)");
+        Console.WriteLine("Do you want to pay bills? (3)");
+
+        string input = Console.ReadLine();
+
+        switch (input)
+        {
+            case "1":
+                Console.Write("Cerdit card ID: ");
+                var creditCardID = Guid.Parse(Console.ReadLine());
+
+                await repo.WithdrawCreditCardById(creditCardID);
+                Console.WriteLine("Done!");
+                break;
+
+            case "2":
+                Console.Write("Bank account ID: ");
+                var bankAccountID = Guid.Parse(Console.ReadLine());
+                Console.Write("Amount: ");
+                var amount = Decimal.Parse(Console.ReadLine());
+
+                await repo.DepositBankAccountById(bankAccountID, amount);
+                Console.WriteLine("Done!");
+                break;
+
+            case "3":
+                Console.Write("Amount: ");
+                var amount1 = Decimal.Parse(Console.ReadLine());
+
+                await repo.PayBills(bankAccountsResult, creditCardsResult, amount1);
+                Console.WriteLine("Done!");
+                break;
         }
     }
     else
@@ -83,5 +132,6 @@ else
     Console.WriteLine("User was not found!");
 }
 
+Console.WriteLine();
 Console.WriteLine("Press enter to exit");
 Console.ReadLine();
