@@ -5,11 +5,11 @@ namespace BlazingPizza;
 
 [Route("orders")]
 [ApiController]
-public class OrderController : Controller
+public class OrdersController : Controller
 {
     private readonly PizzaStoreContext _db;
 
-    public OrderController(PizzaStoreContext db)
+    public OrdersController(PizzaStoreContext db)
     {
         _db = db;
     }

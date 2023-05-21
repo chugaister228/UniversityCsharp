@@ -59,12 +59,12 @@ namespace BlazingPizza
                 .Include(o => o.Pizzas).ThenInclude(p => p.Special)
                 .Include(o => o.Pizzas).ThenInclude(p => p.Toppings).ThenInclude(t => t.Topping)
                 .SingleOrDefaultAsync();
-        
+
             if (order == null)
             {
                 return NotFound();
             }
-        
+
             return OrderWithStatus.FromOrder(order);
         }
     }
